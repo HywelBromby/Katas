@@ -6,7 +6,7 @@ namespace BasicCrudAPIKata.Models
     {
         public static void Configure(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Person>(
+            modelBuilder.Entity<Ticket>(
                 entity =>
                 {
                     entity.HasKey(e => e.Id);

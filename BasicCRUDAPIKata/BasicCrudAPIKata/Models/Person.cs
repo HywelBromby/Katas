@@ -5,7 +5,7 @@ namespace BasicCrudAPIKata.Models
     public class Person
     {
         [Key]
-        public int Id { get; }
+        public int Id { get; set; }
 
         public string Forename { get; set; }
 
